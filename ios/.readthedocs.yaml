@@ -7,7 +7,7 @@ build:
 
 python:
   install:
-    - requirements: docs/requirements.txt
+    - requirements: ios/docs/requirements.txt
 
 sphinx:
-  configuration: docs/conf.py
+  configuration: ios/docs/conf.py
