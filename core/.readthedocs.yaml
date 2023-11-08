@@ -9,5 +9,5 @@ python:
   install:
     - requirements: core/docs/requirements.txt
 
-sphinx:
-  configuration: core/docs/source/conf.py
+mkdocs:
+  configuration: core/mkdocs.yml

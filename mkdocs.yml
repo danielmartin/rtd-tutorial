@@ -1,0 +1,6 @@
+site_name: Sample SourceDocs
+nav:
+  - Home: index.md
+  - Core: https://danielmartin-rtd-tutorial-mkdocs.readthedocs.io/projects/core/en/latest/
+  - iOS: https://danielmartin-rtd-tutorial-mkdocs.readthedocs.io/projects/ios/en/latest/
+theme: readthedocs

@@ -1,0 +1,6 @@
+site_name: Core SourceDocs
+nav:
+  - Getting Started: getting-started.md
+  - How-to Guides:
+      - Add New API: add-new-api.md
+theme: readthedocs

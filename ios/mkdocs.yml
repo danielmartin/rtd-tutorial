@@ -1,0 +1,6 @@
+site_name: iOS SourceDocs
+nav:
+  - Getting Started: getting-started.md
+  - How-to Guides:
+      - Configure Page View: configure-page-view.md
+theme: readthedocs
