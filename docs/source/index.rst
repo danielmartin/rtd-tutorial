@@ -20,3 +20,4 @@ Contents
 
    usage
    api
+   Core <https://danielmartin-rtd-tutorial.readthedocs.io/projects/core/en/latest/>
