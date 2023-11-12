@@ -41,6 +41,10 @@ epub_show_urls = 'footnote'
 # documentation can be next to source files.
 include_patterns = ['index.md', 'docs/**', '**/docs**']
 
+html_context = {
+    'conf_py_path': '/core/'
+}
+
 def setup(app):
     # Set the source directory to the project directory, as we have
     # subfolders with documentation that we want to include as well
