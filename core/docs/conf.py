@@ -1,5 +1,7 @@
 # Configuration file for the Sphinx documentation builder.
 
+import os
+
 # -- Project information
 
 project = 'Core SourceDocs'
@@ -34,3 +36,13 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+# Include the docs/ directory and all docs/ subdirectories, so that
+# documentation can be next to source files.
+include_patterns = ['index.md', 'docs/**', '**/docs**']
+
+def setup(app):
+    # Set the source directory to the project directory, as we have
+    # subfolders with documentation that we want to include as well
+    # (see 'include_patterns').
+    app.srcdir = os.path.abspath('..')
