@@ -13,4 +13,5 @@ docs/getting-started.md
 :maxdepth: 2
 docs/add-new-api.md
 subfolder/docs/index.md
+subfolder/subsubfolder/docs/index.md
 ```
